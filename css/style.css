@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(fundo.PNG); 
+    background-size: 110%;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+    height: 10vh;
+    background-color: #000;
+    color: #fff;
+
+  }
+  
+  h1 a.brabo {
+    font-size: 1.3em;
+    margin-bottom: 2vh;
+    margin-left: 4vh;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav a.oito {
+    text-decoration: none;
+    margin-top: -15vh;
+    color: #fff;
+    padding-inline: 8vh;
+  }
+
+  nav a.oito:hover {
+    font-weight:bold;
+  }
+  
+  #sobre-mim {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  #sobre-mim h2 {
+    font-size: 1.5em;
+  }
+  
+  #sobre-mim p {
+    margin-bottom: 10px;
+  }
+  
+  #trabalhos {
+    padding: 20px;
+  }
+  
+  #trabalhos ul {
+    list-style: none;
+  }
+
+  #trabalhos {
+    background-color: #eee;
+  }
+  
+  #trabalhos li {
+    margin-bottom: 10px;
+  }
+  
+  #trabalhos a {
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+
+  #contato {
+    text-align: right;
+  }
+
+  #imagem {
+    height: 99vh;
+  }
+
+  div.job {
+    border-radius: 15%;
+    background-color: #fff;
+    margin-bottom: 4%;
+    margin: 1vh;
+    margin-left: 8vh;
+    height: 35vh;
+    width: 40vh;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .picture {
+    margin-top: 2vh;
+    margin-left: 2vh;
+    border-radius: 10%;
+    width: 36vh;
+    height: 22vh;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .ukw {
+    width: 100%;
+    height: 100%;
+  }
